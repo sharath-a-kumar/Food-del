@@ -1,0 +1,26 @@
+.app-download {
+    margin: auto;
+    margin-top: 100px;
+    font-size: clamp(20px, 3vw, 40px); /* Ensures font size is between 20px and 40px */
+    text-align: center;
+    font-weight: 500;
+    color: #ffa3a3; /* Ensure text color matches the footer's theme */
+}
+
+.app-download-platforms {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    justify-content: center;
+    gap: 20px; /* Consistent gap between items */
+    margin-top: 40px;
+}
+
+.app-download-platforms img {
+    width: clamp(120px, 30vw, 180px); /* Ensures width is between 120px and 180px */
+    transition: transform 0.3s; /* Smooth transition effect */
+    cursor: pointer;
+}
+
+.app-download-platforms img:hover {
+    transform: scale(1.1); /* Slightly increased scale on hover */
+}

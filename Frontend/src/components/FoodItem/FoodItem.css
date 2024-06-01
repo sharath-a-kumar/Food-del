@@ -1,0 +1,105 @@
+.food-item {
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    animation: fadeIn 1s;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.food-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.food-item-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.food-item-info {
+    padding: 20px;
+    text-align: center;
+}
+
+.food-item-rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.food-item-name-rating p {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.food-item-name-rating img {
+    width: 70px;
+    margin-left: 10px;
+}
+
+.food-item-desc {
+    color: #676767;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.food-item-price {
+    color: tomato;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 15px 0;
+    display: flex;         /* Added for centering */
+    justify-content: center; /* Added for centering */
+    text-align: center;    /* Added for centering */
+}
+
+.food-item-img-container {
+    position: relative;
+}
+
+.food-item-img-container .add {
+    width: 35px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.food-item-counter {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 12px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.food-item-counter img {
+    width: 30px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

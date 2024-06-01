@@ -1,0 +1,100 @@
+.list {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.list-table-format {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 0.5fr;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 15px;
+    border: 1px solid #cacaca;
+    font-size: 13px;
+}
+
+.list-table-format.title {
+    background-color: #f9f9f9;
+}
+
+.list-table-format img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.list-table-format b, .list-table-format p {
+    text-align: center;
+    margin: 0;
+}
+
+.list-table-format p {
+    word-wrap: break-word;
+}
+
+.cursor {
+    cursor: pointer;
+    color: red;
+}
+
+.edit-button {
+    color: red;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .list-table-format {
+        grid-template-columns: 1fr 3fr 1fr;
+        gap: 15px;
+    }
+
+    .list-table-format.title {
+        display: none;
+    }
+}
+
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.edit-form input[type="text"], .edit-form input[type="file"] {
+    padding: 8px;
+    font-size: 14px;
+    width: 300px;
+}
+
+.edit-form button {
+    padding: 10px 20px;
+    font-size: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.edit-form button:first-of-type {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+.edit-form button:last-of-type {
+    background-color: #f44336;
+    color: white;
+    border: none;
+}
