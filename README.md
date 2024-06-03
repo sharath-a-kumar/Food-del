@@ -31,9 +31,8 @@ This project is a food delivery website with features such as user authenticatio
 
 1. Clone the repository:
 
-   ```bash  https://github.com/sharath-a-kumar/Food-del
-
-
+   ```bash 
+       https://github.com/sharath-a-kumar/Food-del
    ```
 
 2. Install dependencies:
