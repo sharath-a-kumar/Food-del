@@ -1,30 +1,46 @@
-**Food Delivery Website **
+# Food Delivery Website (CRUD OPERATION)
 
-**Project Overview**
-This project is a food delivery website featuring user authentication, shopping cart functionality, order placement, and an administration panel for managing orders and food items.
+## Project Overview
 
-**Features Implemented**
+This project is a food delivery website with features such as user authentication, shopping cart functionality, with the CRUD operation.
 
-**Frontend Development**
+## Features Implemented
 
-Created a responsive food delivery website using ReactJs Nodejs HTML,CSS, and JavaScript.
-Implemented a sign-in/sign-up component for user authentication.
-Developed pages for the shopping cart, order placement, and user order history.
+1. **Frontend Development**
+   - Created a responsive food delivery website using ReactJs Nodejs HTML,CSS, and JavaScript.
+   - Implemented a sign-in/sign-up component for user authentication.
+   - Developed pages for the shopping cart, order placement.
 
+2. **Backend Development**
+   - Built the backend using Node.js and Express.js.
+   - Integrated MongoDB Atlas for database storage.
+   - Implemented APIs for fetching food data, user authentication, order management.
 
-**Backend Development**
+3. **Admin Panel**
+   - Displayed the list of food items and orders in the admin panel.
 
-Built the backend using Node.js and Express.js framework.
-Integrated MongoDB Atlas for database storage.
-Implemented APIs for fetching food data, user authentication, order management, and payment integration using Stripe.
-Admin Panel
+## Project Structure
 
-Developed an admin panel using React.js for managing orders and food items.
-Displayed the list of food items and orders in the admin panel.
-Implemented functionality to update orders.
+- `frontend/`: Contains the frontend code for the food delivery website.
+- `backend/`: Contains the backend code for the Node.js server.
+- `admin/`: Contains the code for the admin panel developed using React.js.
+- `docs/`: Contains documentation files if any.
+- `README.md`: This file providing information about the project.
 
-**Setup Instructions**
-Clone the repository:
-  https://github.com/sharath-a-kumar/Food-del
+   ## Setup Instructions
 
+1. Clone the repository:
 
+   ```bash
+  
+
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   cd Food_Delievery_Tomato
+   cd frontend && npm install
+   cd ../backend && npm install
+   cd ../admin && npm install
+   ```
