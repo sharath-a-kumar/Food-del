@@ -1,4 +1,5 @@
-****Food Delivery Website ****
+**Food Delivery Website **
+
 **Project Overview**
 This project is a food delivery website featuring user authentication, shopping cart functionality, order placement, and an administration panel for managing orders and food items.
 
