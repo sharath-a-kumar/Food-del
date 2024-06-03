@@ -1,8 +1,28 @@
-# React + Vite
+Food Delivery Website 
+Project Overview
+This project is a food delivery website featuring user authentication, shopping cart functionality, order placement, and an administration panel for managing orders and food items.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features Implemented
 
-Currently, two official plugins are available:
+Frontend Development
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Created a responsive food delivery website using ReactJs Nodejs HTML,CSS, and JavaScript.
+Implemented a sign-in/sign-up component for user authentication.
+Developed pages for the shopping cart, order placement, and user order history.
+
+
+Backend Development
+
+Built the backend using Node.js and Express.js framework.
+Integrated MongoDB Atlas for database storage.
+Implemented APIs for fetching food data, user authentication, order management, and payment integration using Stripe.
+Admin Panel
+
+Developed an admin panel using React.js for managing orders and food items.
+Displayed the list of food items and orders in the admin panel.
+Implemented functionality to update orders.
+
+Setup Instructions
+Clone the repository:
+
+
