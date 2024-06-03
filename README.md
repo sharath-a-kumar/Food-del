@@ -44,8 +44,5 @@ This project is a food delivery website with features such as user authenticatio
    cd ../admin && npm install
    ```
 
-Previews of the Project
-# --- FrontEnd ----------- 
-# Home Page
-<img width="505" alt="image" src="https://github.com/imrohitsampannavar45/Food_Delievery_Tomato/assets/88710389/b1ed80de-7e4d-42cc-9729-2dfde8f13892">
+
 
