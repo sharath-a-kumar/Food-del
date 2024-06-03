@@ -30,9 +30,9 @@ This project is a food delivery website with features such as user authenticatio
    ## Setup Instructions
 
 1. Clone the repository:
-  https://github.com/sharath-a-kumar/Food-del
-   ```bash
-  https://github.com/sharath-a-kumar/Food-del
+
+   ```bash  https://github.com/sharath-a-kumar/Food-del
+
 
    ```
 
